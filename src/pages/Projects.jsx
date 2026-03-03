@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -13,8 +14,16 @@ function Projects() {
             description={project.description}
             tech={project.tech}
             github={project.github}
+            className="bordered"
           />
         ))}
+      </div>
+
+      {/* Go Back Button */}
+      <div style={{ textAlign: "center", marginTop: "40px" }}>
+        <Link to="/" className="btn secondary">
+          ← Go Back
+        </Link>
       </div>
     </section>
   );

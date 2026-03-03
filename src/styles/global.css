@@ -145,3 +145,13 @@ body {
   border-radius: 10px;
   display: inline-block;
 }
+
+.bordered {
+  border: 1px solid #38bdf8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bordered:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(56, 221, 248, 0.3);
+}

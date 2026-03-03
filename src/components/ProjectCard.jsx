@@ -1,6 +1,6 @@
-function ProjectCard({ title, description, tech, github }) {
+function ProjectCard({ title, description, tech, github, className }) {
   return (
-    <div className="project-card">
+    <div className={`project-card ${className ? className : ""}`}>
       <h2>{title}</h2>
       <p>{description}</p>
 

@@ -2,11 +2,13 @@ function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Wade</h1>
-        <h2>Full Stack & Mobile App Developer</h2>
+        <h1>Wajahat</h1>
+        <h2>
+          Full Stack & Mobile App Developer{" "}
+          <span className="highlight">💻</span>
+        </h2>
         <p>
-          I build modern web applications using React and cross-platform
-          mobile apps using React Native.
+          I build modern web applications & mobile applications.
         </p>
 
         <div className="hero-buttons">
